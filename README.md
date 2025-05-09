@@ -1,37 +1,12 @@
-# 🎬 CineGrid
+# React + Vite
 
-A simple React app built with Vite that displays a grid of movies using The Movie Database (TMDB) API. Users can mark movies as favorites and view them in a dedicated section. Favorites are stored using `localStorage`.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 📌 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Displays a grid of recently released movies
-- Mark/unmark movies as favorites
-- View all favorited movies
-- Built with React + Vite
-- Favorites stored in `localStorage` (cleared on full page reload)
+## Expanding the ESLint configuration
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- A TMDB API key — [Get one here](https://www.themoviedb.org)
-
-### Installation
-
-```bash
-git clone https://github.com/Sukhman-05/CineGrid.git
-cd CineGrid
-npm install
-npm run dev
-```
-## 🔑 Important:
-Go to src/services/api.js and replace the placeholder with your own TMDB API key before running the app.
-
-## 📚 Credits
-This project was inspired by the tutorial
-["Learn React With This ONE Project"](https://youtu.be/G6D9cBaLViA?si=e-5pOmZdSv36Jgb3) by Tech With Tim on YouTube.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
